@@ -6,7 +6,7 @@ It is a deep learning model based on graph autoencoder, to simultaneously achiev
 
 
 -----------------------------------------
-![image]([https://github.com/ZB-JN/scGAMNN/blob/main/figure/fig1.png](https://raw.githubusercontent.com/ZB-JN/scGAMNN/main/figure/fig1.png?token=GHSAT0AAAAAACFEVYT3WXJZQANQOZBZ6IMOZFTTEVQ))
+![image](https://github.com/ZB-JN/scGAMNN/blob/main/figure/fig1.png)
 
 -----------------------------------------
 
