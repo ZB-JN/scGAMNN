@@ -136,11 +136,6 @@ class scGAMNN(tf.keras.Model):
         print("train Finish!")
 
 
-    def target_distribution(self, q):
-        q = q.numpy()
-        weight = q ** 2 / q.sum(0)
-        return (weight.T / weight.sum(1)).T
-
     def embedding(self, count, adj_n):
         if self.sparse:
             adj_n = tfp.math.dense_to_sparse(adj_n)
